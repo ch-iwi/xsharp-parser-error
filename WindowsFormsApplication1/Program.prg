@@ -14,7 +14,7 @@ BEGIN NAMESPACE WindowsFormsApplication1
         
     LOCAL oSentryOptions AS SentryOptions 
 	oSentryOptions := SentryOptions{}
-	oSentryOptions:Dsn := Dsn{"https://sentrydsnhere"}
+	oSentryOptions:Dsn := Dsn{"https://examplePublicKey@o0.ingest.sentry.io/0"}
 	oSentryOptions:Debug := TRUE
     
     BEGIN USING VAR oSentry := SentrySdk.Init(oSentryOptions)

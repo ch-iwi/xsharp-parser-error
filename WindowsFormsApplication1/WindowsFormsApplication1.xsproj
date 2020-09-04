@@ -15,6 +15,13 @@
     <vo15>false</vo15>
     <OutputName>WindowsFormsApplication1</OutputName>
     <XSharpProjectversion>2.5.2.0</XSharpProjectversion>
+    <NamedArgs>False</NamedArgs>
+    <StartupObject />
+    <ApplicationIcon />
+    <VulcanCompatibleResources>False</VulcanCompatibleResources>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <Memvar>False</Memvar>
+    <Undeclared>False</Undeclared>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" Label="Configuration">
     <PlatformTarget>AnyCPU</PlatformTarget>

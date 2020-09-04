@@ -7,8 +7,8 @@ FUNCTION Start() AS INT
     
 	LOCAL oSentryOptions AS SentryOptions 
 	oSentryOptions := SentryOptions{}
-	oSentryOptions:Dsn := Dsn{"https://sentrydsnhere"}
-	//the following line causes a compiler parser error
+	oSentryOptions:Dsn := Dsn{"https://examplePublicKey@o0.ingest.sentry.io/0"}
+	//the following line causes a parser error
     oSentryOptions:Debug := TRUE
     
     BEGIN USING VAR oSentry := SentrySdk:Init(oSentryOptions)
